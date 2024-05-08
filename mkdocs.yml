@@ -1,0 +1,36 @@
+site_name: Roman's Notes
+site_url: https://romanpilyushin.github.io/blog
+theme:
+  logo: logo.png
+  favicon: logo.png
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+    - content.tabs.link
+    - content.code.annotation
+    - content.code.copy
+    - header.autohide
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+      primary: blue grey
+      accent: purple
+    - scheme: slate
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+      primary: teal
+      accent: lime
+markdown_extensions:
+  - attr_list
+plugins:
+  - search
+  - tags:
+      tags_file: notes/tags.md
