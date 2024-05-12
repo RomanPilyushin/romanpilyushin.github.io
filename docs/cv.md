@@ -1,4 +1,4 @@
-# CV
+# cv
 
 ## Project layout
 

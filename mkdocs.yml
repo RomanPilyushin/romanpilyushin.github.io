@@ -1,4 +1,4 @@
-site_name: Roman's Notes
+site_name: roman's notes ■
 site_url: https://romanpilyushin.github.io
 theme:
   logo: logo.png
@@ -14,20 +14,23 @@ theme:
     - content.code.annotation
     - content.code.copy
     - header.autohide
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.footer
   language: en
   palette:
     - scheme: default
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
-      primary: blue grey
-      accent: purple
+      primary: black
+      accent: light green
     - scheme: slate
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
-      primary: teal
-      accent: lime
+      primary: black
+      accent: light green
 markdown_extensions:
   - attr_list
 plugins:
@@ -41,3 +44,8 @@ plugins:
       archive: true
   - tags:
       tags_file: blog/tags.md
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/RomanPilyushin
+copyright: Copyright &copy; 2020 - 2024 Roman Pilyushin
