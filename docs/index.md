@@ -16,6 +16,7 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
         index.md  # The documentation homepage.
         ...       # Other markdown pages, images and other files.
 
+[PDF File](File.pdf){:download="awesome-file"}
 
 [Link to Second Page](http://127.0.0.1:8000/page-2/)
 

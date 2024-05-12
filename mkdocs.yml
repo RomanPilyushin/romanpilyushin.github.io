@@ -32,5 +32,12 @@ markdown_extensions:
   - attr_list
 plugins:
   - search
+  - blog:
+      post_excerpt: optional
+      archive_date_format: MMMM yyyy
+      archive_toc: true
+      blog_toc: true
+      post_excerpt_separator: <!-- more -->
+      archive: true
   - tags:
-      tags_file: notes/tags.md
+      tags_file: blog/tags.md
